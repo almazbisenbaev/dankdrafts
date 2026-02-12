@@ -36,6 +36,7 @@ export function TemplateGallery() {
 
   return (
     <section className="mx-auto max-w-7xl px-4 py-16">
+
       <div className="mb-12 text-center">
         <div className="mx-auto mb-5 flex items-center justify-center gap-3">
           <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary shadow-md shadow-primary/25">
@@ -46,13 +47,10 @@ export function TemplateGallery() {
           </span>
         </div>
         <h1 className="font-display text-4xl font-bold tracking-tight text-foreground md:text-5xl text-balance">
-          Pick a template,
-          <br />
-          <span className="text-primary">make it dank.</span>
+          Create memes from templates
         </h1>
-        <p className="mx-auto mt-4 max-w-md text-lg text-muted-foreground leading-relaxed">
+        <p className="mx-auto mt-4 max-w-lg text-lg text-muted-foreground leading-relaxed">
           Choose a meme template below and add your own text.
-          No sign-up required.
         </p>
       </div>
 
@@ -105,7 +103,7 @@ export function TemplateGallery() {
                   {template.name}
                 </h3>
                 <span className="flex items-center gap-1 rounded-full bg-secondary px-3 py-1.5 text-xs font-semibold text-secondary-foreground transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
-                  Edit
+                  Create a meme
                   <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-0.5" />
                 </span>
               </div>
