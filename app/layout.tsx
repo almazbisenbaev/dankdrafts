@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   title: "DankDrafts - Create Memes from Templates",
   description:
     "Create hilarious memes from popular templates. Drag text anywhere, customize, and download your creations as JPG.",
+    verification: {
+      google: 'cfuRApAKvRomU8FRnyOL2giMwdwF-q1WMg1l7Q-W1og', 
+    },
 };
 
 export const viewport: Viewport = {
